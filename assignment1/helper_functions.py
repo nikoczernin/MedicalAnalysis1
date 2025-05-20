@@ -190,3 +190,15 @@ def plotDemo():
         showStd=True,
         #recData=redData, # here goes your reconstructed data 
         showReconstruction=False)
+
+# def simple_scatterplot(data, title="", xlabel="", ylabel="", equal_axis=True, size=None):
+#     if size is None: size = (5,5)
+#     fig = plt.figure(figsize=size)
+#     ax = fig.add_subplot(111)
+#     ax.scatter(data[:, 0], data[:, 1], s=5, alpha=0.5)
+#     ax.set_title(f"{title}")
+#     ax.set_xlabel(f"{xlabel}")
+#     ax.set_ylabel(f"{ylabel}")
+#     if equal_axis: ax.axis('equal')
+#     ax.grid()
+#     plt.show()
